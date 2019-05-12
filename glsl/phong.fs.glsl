@@ -20,7 +20,6 @@ uniform float shininessUniform;
 
 
 void main() {
-	//TODO: PART 1A
 
 	//AMBIENT
 

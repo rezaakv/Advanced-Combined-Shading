@@ -11,7 +11,6 @@ uniform vec3 lightDirectionUniform;
 
 void main() {
 
-	// TODO: PART 1C
 
    interpolatedNormal = normalMatrix * normal;
 

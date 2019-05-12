@@ -33,7 +33,7 @@ void main() {
 
 
 	//TOTAL INTENSITY
-	//TODO PART 1E: calculate light intensity (ambient+diffuse+speculars' intensity term)
+
 
      float spotExponent = 5.0;
 

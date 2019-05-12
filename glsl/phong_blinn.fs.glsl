@@ -21,7 +21,7 @@ uniform float shininessUniform;
 
 void main() {
 
-	//TODO: PART 1B
+
 	
 	//AMBIENT
 	vec3 light_AMB = vec3(0.0, 0.0, 0.0);

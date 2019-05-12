@@ -11,7 +11,6 @@ uniform vec3 lightDirectionUniform;
 
 void main() {
 
-    // TODO: PART 1A
    interpolatedNormal = normalMatrix * normal;
 
    lightDirectView = (viewMatrix * vec4(lightDirectionUniform, 0.0)).xyz;

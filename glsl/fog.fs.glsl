@@ -26,7 +26,7 @@ uniform vec3 spotDirectPosition;
 
 void main() {
 
-	// TODO: PART 1C
+
 
 	   float spotExponent = 5.0;
 

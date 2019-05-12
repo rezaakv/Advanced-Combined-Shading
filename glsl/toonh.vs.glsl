@@ -11,7 +11,7 @@ out vec3 posW;
 
 
 void main() {
-	// TODO: PART 1E
+
 
    interpolatedNormal = normalMatrix * normal;
 

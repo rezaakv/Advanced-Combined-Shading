@@ -15,7 +15,7 @@ in vec3 pos;
 
 void main() {
 
-	// TODO: PART 1D
+
 
    float spotExponent = 5.0;
 
