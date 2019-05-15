@@ -125,7 +125,7 @@ var spotDirectPosition = {type: 'v3', value: new THREE.Vector3(0.0,0.0,0.0)};
 
 var spotlightMaterial = new THREE.ShaderMaterial({
     uniforms: {
-        // TODO: pass in the uniforms you need
+
         spotlightPosition: spotlightPosition,
         spotDirectPosition: spotDirectPosition
     }
@@ -332,8 +332,6 @@ scenes[Part.SPOTLIGHT].add(floor);
 
 toon = {};
 
-// TODO: load your objects here
-
 var shape = {
     tree01: 'obj/tree01.obj',
     LEGO_Man: 'obj/LEGO_Man.obj',
@@ -400,7 +398,7 @@ scenes[Part.TOON].add(toon.npr_toon);
 
 toonh = {};
 
-// TODO: load your objects here
+
 
 
 // loadOBJ(Part.TOON, 'obj/bunny.obj', toonhMaterial, 20, 5, 0, 20, 0,20,0);
@@ -459,7 +457,7 @@ scenes[Part.TOONH].add(toonh.npr_toonh);
 
 toong = {};
 
-// TODO: load your objects here
+
 
 
 // loadOBJ(Part.TOON, 'obj/bunny.obj', toonhMaterial, 20, 5, 0, 20, 0,20,0);
@@ -537,7 +535,7 @@ function checkKeyboard() {
     else if (keyboard.pressed("7"))
         mode = Part.TOONG
 
-    // TODO: add keyboard control to change spotDirectPosition
+
   if(mode == Part.SPOTLIGHT || mode == Part.FOG || mode == Part.TOON || mode == Part.TOONH || mode == Part.TOONG) {
     if (keyboard.pressed("A"))
         spotDirectPosition.value.x -= 0.7;
